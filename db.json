@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "ptitle": "Rachith Properties",
+      "pprice": "50750.0",
+      "plocation": "Matara",
+      "pdetails": "Plot available for 4 room set"
+    }
+  ],
+  "signup": [
+    {
+      "id": 1,
+      "name": "rachith thrishan",
+      "email": "rach@gmail.com",
+      "mobile": "071845623",
+      "password": "plot12"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
