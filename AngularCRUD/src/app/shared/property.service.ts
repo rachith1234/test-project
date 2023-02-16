@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -5,5 +6,6 @@ import { Injectable } from '@angular/core';
 })
 export class PropertyService {
 
-  constructor() { }
+  constructor(private http:HttpClient) { }
+  //Now Add Get, Post, Put and Delete method here
 }
