@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "ptitle": "Rachith Properties",
+      "pprice": "50000.00",
+      "plocation": "Matara District",
+      "pdetails": "20 perches plots"
+
+    }
+  ],
+  "signup": [
+    {
+      "id": 1,
+      "name": "Rachith Thrishan",
+      "email": "rach@gmail.com",
+      "password": "sfgh5"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
