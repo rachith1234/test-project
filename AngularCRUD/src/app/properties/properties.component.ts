@@ -39,6 +39,12 @@ propertyModelObj:Property = new Property();
     this.propertyModelObj.pprice= this.formValue.value.pprice;
     this.propertyModelObj.plocation= this.formValue.value.plocation;
     this.propertyModelObj.pdetails= this.formValue.value.pdetails;
+    this.api.addListing(this.propertyModelObj).subscribe((res): void=>{
+      console.log(res);
+      alert("Record Added Successfull")
+      this.formValue.reset();
+      this.getAllProperty();
+    })
   }
 
 }

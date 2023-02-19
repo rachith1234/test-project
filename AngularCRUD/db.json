@@ -6,7 +6,69 @@
       "pprice": "50000.00",
       "plocation": "Matara District",
       "pdetails": "20 perches plots"
-
+    },
+    {
+      "id": 2,
+      "ptitle": "cvjn",
+      "pprice": "gjcx",
+      "plocation": "gcj",
+      "pdetails": "jh"
+    },
+    {
+      "id": 3,
+      "ptitle": "cvjn",
+      "pprice": "gjcx",
+      "plocation": "gcj",
+      "pdetails": "jh"
+    },
+    {
+      "id": 4,
+      "ptitle": "fgj",
+      "pprice": "hfgk",
+      "plocation": "hkg",
+      "pdetails": "ghk"
+    },
+    {
+      "id": 5,
+      "ptitle": "gcj",
+      "pprice": "jgk",
+      "plocation": "jgk",
+      "pdetails": "gjk"
+    },
+    {
+      "id": 6,
+      "ptitle": "ery",
+      "pprice": "rt",
+      "plocation": "tyey",
+      "pdetails": "ety"
+    },
+    {
+      "id": 7,
+      "ptitle": "rsyd",
+      "pprice": "tfu",
+      "plocation": "fuyx",
+      "pdetails": "fuy"
+    },
+    {
+      "id": 8,
+      "ptitle": "east",
+      "pprice": "ety",
+      "plocation": "ty",
+      "pdetails": "eyt"
+    },
+    {
+      "id": 9,
+      "ptitle": "uhko",
+      "pprice": "ugi",
+      "plocation": "ujg",
+      "pdetails": "gui"
+    },
+    {
+      "id": 10,
+      "ptitle": "srtg",
+      "pprice": "sfg",
+      "plocation": "fsg",
+      "pdetails": "dgs"
     }
   ],
   "signup": [
