@@ -6,6 +6,9 @@ import { map, pipe } from 'rxjs';
   providedIn: 'root'
 })
 export class PropertyService {
+  getAllProp() {
+    throw new Error('Method not implemented.');
+  }
 
   constructor(private http:HttpClient) { }
   //Now Add Get, Post, Put and Delete method here
