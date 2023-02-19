@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
 import { PropertyService } from '../shared/property.service';
 
@@ -7,7 +7,7 @@ import { PropertyService } from '../shared/property.service';
   templateUrl: './properties.component.html',
   styleUrls: ['./properties.component.css']
 })
-export class PropertiesComponent {
+export class PropertiesComponent implements OnInit {
 allProperty:any;
   constructor(private fb:FormBuilder, private api:PropertyService){}
 
@@ -16,7 +16,7 @@ allProperty:any;
   }
 
   getAllProperty(){
-    this.api.getAllProp().subscribe((res: any)=>{
+    this.api.getAllProperty().subscribe((res: any)=>{
       this.allProperty = res;
       console.warn(this.allProperty)
     })

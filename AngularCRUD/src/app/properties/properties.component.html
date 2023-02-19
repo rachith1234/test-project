@@ -28,12 +28,12 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-        <td>@mdo</td>
+      <tr *ngFor="let data allProperty">
+        <td>{{data.id}}</td>
+        <td>{{data.ptitle}}</td>
+        <td>{{data.pprice}}</td>
+        <td>{{data.plocation}}</td>
+        <td>{{data.pdetails}}</td>
         <td><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
         <button class="btn btn-success mx-2">View</button>
         <button class="btn btn-danger mx-2">Delete</button></td>
