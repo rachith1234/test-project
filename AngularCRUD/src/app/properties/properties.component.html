@@ -51,23 +51,23 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <form action="">
+            <form [formGroup]="formValue">
             <div class="mb-3">
                 <label for="formGroupExampleInput" class="form-label">Property Title Name</label>
-                <input type="text" class="form-control"  placeholder="ABC Properties">
+                <input formControlName="pname" type="text" class="form-control"  placeholder="ABC Properties">
               </div>
               <div class="mb-3">
                 <label for="formGroupExampleInput2" class="form-label">Property Price</label>
-                <input type="text" class="form-control"  placeholder="50 000.00">
+                <input formControlName="pprice" type="text" class="form-control"  placeholder="50 000.00">
               </div>
               
               <div class="mb-3">
                 <label for="formGroupExampleInput2" class="form-label">Property Location</label>
-                <input type="text" class="form-control"  placeholder="Matara District">
+                <input formControlName="plocation" type="text" class="form-control"  placeholder="Matara District">
               </div>
               <div class="mb-3">
                 <label for="formGroupExampleInput" class="form-label">Property Details</label>
-                <input type="text" class="form-control"  placeholder="ABC Properties set all">
+                <input formControlName="pdetails" type="text" class="form-control"  placeholder="ABC Properties set all">
               </div>
             </form>
         </div>
