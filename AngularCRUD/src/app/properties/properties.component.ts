@@ -18,8 +18,9 @@ propertyModelObj:Property = new Property();
 
   ngOnInit():void{
     this.formValue= this.fb.group({
-      pname: [''],
+      ptitle: [''],
       pprice: [''],
+      plocation: [''],
       pdetails: ['']
      
     })
@@ -34,7 +35,7 @@ propertyModelObj:Property = new Property();
   }
 
   addProp(){
-    this.propertyModelObj.pname= this.formValue.value.pname;
+    this.propertyModelObj.ptitle= this.formValue.value.ptitle;
     this.propertyModelObj.pprice= this.formValue.value.pprice;
     this.propertyModelObj.plocation= this.formValue.value.plocation;
     this.propertyModelObj.pdetails= this.formValue.value.pdetails;
