@@ -22,21 +22,21 @@ export class PropertyService {
   //get All Property using get Methods
 
   getAllProperty(){
-    return this.http.get('').pipe(map((res:any)=>{
+    return this.http.get('http://localhost:3000/properties').pipe(map((res:any)=>{
       return res;
     }))
   }
 
   //Update property using put method
   updateProp(data:any, id:number){
-    return this.http.put(''+id,data).pipe(map((res:any)=>{
+    return this.http.put('http://localhost:3000/properties/'+id,data).pipe(map((res:any)=>{
       return res;
     }))
   }
 
   //Delete property using delete method
   deleteProp(id:number){
-    return this.http.delete(''+id).pipe(map((res:any)=>{
+    return this.http.delete('http://localhost:3000/properties/'+id).pipe(map((res:any)=>{
       return res;
     }))
   }

@@ -6,6 +6,13 @@
       "pprice": "50750.0",
       "plocation": "Matara",
       "pdetails": "Plot available for 4 room set"
+    },
+    {
+      "id": 2,
+      "ptitle": "rydu",
+      "pprice": "ryu",
+      "plocation": "yru",
+      "pdetails": "yru"
     }
   ],
   "signup": [
